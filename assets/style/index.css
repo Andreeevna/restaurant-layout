@@ -95,7 +95,7 @@ header {
 
 /* MAIN */
 
-main {
+.main {
 	margin-top: 166px;
 }
 
@@ -152,4 +152,47 @@ main {
 .main-content__buttons a:last-of-type {
 	padding: 16px 55px;
 	background-color: var(--green);
+}
+
+/* WELCOME */
+
+.welcome {
+	background-color: rgba(63, 198, 110, 0.1);
+}
+
+.welcome-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.welcome-content h2 {
+	margin-bottom: 60px;
+	display: inline-block;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.1;
+	color: var(--black);
+}
+
+.welcome-content h2 span {
+	color: var(--orange);
+}
+
+.welcome-content p {
+	margin-bottom: 122px;
+	display: inline-block;
+	line-height: 2;
+}
+
+.welcome-content a {
+	padding: 17px 45px;
+	color: var(--white);
+	background-color: var(--orange);
+	border-radius: 162px;
+	transition: all 0.3s ease-in-out;
+}
+
+.welcome-content a:hover {
+	transform: scale(1.02);
 }
