@@ -3,6 +3,7 @@
 	--orange: #ff8a00;
 	--white: #fff;
 	--green: #3fa72f;
+	--white-orange: #f9cfa0;
 }
 
 body,
@@ -22,6 +23,20 @@ a {
 	text-decoration: none;
 	display: inline-block;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+}
+
+/* HEADER */
 
 nav a {
 	margin-right: 45px;
@@ -76,4 +91,65 @@ header {
 
 .header-content__last a:last-of-type:hover {
 	background-color: var(--orange);
+}
+
+/* MAIN */
+
+main {
+	margin-top: 166px;
+}
+
+.main-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-content__about {
+	margin-bottom: 22px;
+	display: inline-block;
+	padding: 10px 34px;
+	background-color: var(--white-orange);
+	border-radius: 126px;
+	color: var(--orange);
+}
+
+.main-content h1 {
+	margin-bottom: 34px;
+	font-size: 80px;
+	line-height: 1.1;
+	font-weight: 700;
+	color: var(--black);
+}
+
+.main-content p {
+	margin-bottom: 77px;
+	display: inline-block;
+	line-height: 2;
+}
+
+.main-content__buttons {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.main-content__buttons a {
+	color: var(--white);
+	display: inline-block;
+	border-radius: 162px;
+	transition: 0.3s ease-in-out;
+}
+
+.main-content__buttons a:hover {
+	transform: scale(1.05);
+}
+
+.main-content__buttons a:first-of-type {
+	padding: 16px 62px;
+	background-color: var(--orange);
+}
+
+.main-content__buttons a:last-of-type {
+	padding: 16px 55px;
+	background-color: var(--green);
 }
