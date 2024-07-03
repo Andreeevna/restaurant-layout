@@ -30,7 +30,9 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul,
+li {
 	margin: 0;
 	padding: 0;
 	font-size: inherit;
@@ -585,4 +587,78 @@ header {
 	bottom: 11%;
 	left: 20%;
 	opacity: 0.7;
+}
+
+/* OPEN */
+
+.open {
+	padding-top: 238px;
+	padding-bottom: 238px;
+}
+
+.open-content {
+	padding: 26px 276px 80px 276px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--white);
+	background-image: url('./../images/Background-open.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	text-align: center;
+}
+
+.open-content h2 {
+	font-size: 70px;
+	line-height: 2;
+}
+
+.open-content span {
+	margin-bottom: 12px;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 2;
+}
+
+.open-items {
+	margin-bottom: 50px;
+	list-style-type: none;
+}
+
+.open-item {
+	margin-bottom: 10px;
+	line-height: 1;
+	font-weight: 400;
+}
+
+.open-item:last-of-type {
+	text-align: right;
+}
+
+.open-buttons {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.open-buttons a {
+	padding: 17px 62px;
+	border-radius: 162px;
+	transition: all 0.3s ease-in-out;
+}
+
+.open-buttons a:first-of-type {
+	color: var(--white);
+	background-color: var(--orange);
+}
+
+.open-buttons a:last-of-type {
+	color: var(--black);
+	background-color: var(--white);
+}
+
+.open-buttons a:hover {
+	transform: scale(1.02);
 }
