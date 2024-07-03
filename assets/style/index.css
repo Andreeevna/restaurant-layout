@@ -341,3 +341,56 @@ header {
 	font-size: 36px;
 	color: #b7a28b;
 }
+
+/* RESERVEs */
+
+.reserve {
+	padding-top: 113px;
+	padding-bottom: 39px;
+	background-color: #fff4e7;
+}
+
+.reserve-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.reserve-left {
+	transform: translate(-15%, 0);
+}
+
+.reserve-left {
+	max-width: 800px;
+}
+
+.reserve-right {
+}
+
+.reserve-right h2 {
+	margin-bottom: 60px;
+	display: inline-block;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.1;
+	color: var(--black);
+}
+
+.reserve-right h2 span {
+	color: var(--orange);
+}
+
+.reserve-right p {
+	margin-bottom: 132px;
+}
+
+.reserve-right a {
+	padding: 17px 45px;
+	color: var(--white);
+	background-color: var(--orange);
+	border-radius: 162px;
+	transition: all 0.3s ease-in-out;
+}
+
+.reserve-right a:hover {
+	transform: scale(1.02);
+}
